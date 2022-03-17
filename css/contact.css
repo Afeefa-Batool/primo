@@ -1,0 +1,27 @@
+/* Navigation Bar */
+.navbar {
+  padding: 20px 10px 20px 0px;
+  background-color: #000000 !important;
+  transition: all ease 0.4s;
+}
+.navbar-brand {
+  font-size: 22px;
+  color: white !important;
+}
+.navbar .navbar-nav li a {
+  font-size: 16px;
+  color: white !important;
+}
+.navbar .navbar-nav li a:hover {
+  font-size: 16px;
+  color: rgb(255, 254, 254) !important;
+}
+
+.jumbotron {
+  margin-top: 26px;
+}
+.portfolio-title {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}

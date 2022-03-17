@@ -1,0 +1,87 @@
+/* Navigation Bar */
+.navbar {
+  padding: 20px 10px 20px 0px;
+  background-color: #030303;
+  transition: all ease 0.4s;
+}
+.navbar-brand {
+  font-size: 22px;
+  color: white !important;
+}
+.navbar .navbar-nav li a {
+  font-size: 16px;
+  color: white;
+}
+.navbar .navbar-nav li a:hover {
+  font-size: 16px;
+  color: rgb(255, 254, 254) !important;
+}
+
+.jumbotron {
+  margin-top: 110px;
+}
+/* ....profile card.... */
+.navbar {
+  margin-bottom: 0 !important;
+}
+.card-section {
+  background-image: url("https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?ixlib=rb-1.2.1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 448px;
+  height: 484px;
+  border-radius: 10px;
+  background-color: hsl(0, 22%, 96%);
+  box-shadow: 21px 4px 44px 0px rgb(0 0 0);
+}
+.card-img {
+  width: 43%;
+}
+.card-img img {
+  height: 197px;
+  width: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.card-content h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+
+  text-align: center;
+}
+.card-content p {
+  font-family: "Poppins", sans-serif;
+
+  font-weight: 400;
+  text-align: center;
+}
+.card-icons {
+  margin-top: 15px;
+}
+.card-icons ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 !important;
+}
+
+.card-icons ul li {
+  margin: 0 20px;
+}
+.card-icons i {
+  font-size: 35px;
+  color: black;
+}
